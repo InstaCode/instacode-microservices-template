@@ -1,4 +1,4 @@
-package com.baeldung;
+package io.instacode;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

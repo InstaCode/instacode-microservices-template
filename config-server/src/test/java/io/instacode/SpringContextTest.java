@@ -1,14 +1,14 @@
-package com.baeldung;
+package io.instacode;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import io.instacode.spring.cloud.zipkin.ZipkinApplication;
+import io.instacode.spring.config.ConfigApplication;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ZipkinApplication.class)
+@SpringBootTest(classes = ConfigApplication.class)
 public class SpringContextTest {
 
     @Test
