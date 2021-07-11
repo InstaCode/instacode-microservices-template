@@ -129,7 +129,7 @@ public class LiveTest {
         Assert.assertEquals(HttpStatus.OK.value(), response.getStatusCode());
         Assert.assertNotNull(response.getBody());
         final Book result = response.as(Book.class);
-        Assert.assertEquals(new Long(1), result.getId());
+        Assert.assertEquals(Long.valueOf(1), result.getId());
         Assert.assertNotNull(result.getRatings());
         Assert.assertTrue(result.getRatings().size() > 0);
     }
