@@ -1,0 +1,3 @@
+[submodule "instacode-microservices-config-server"]
+	path = instacode-microservices-config-server
+	url = https://jason-edstrom@github.com/InstaCode/spring-microservices-config-server.git
