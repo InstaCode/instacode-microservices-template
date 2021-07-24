@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.instacode.spring</groupId>
-    <artifactId>spring-microservices-parent</artifactId>
+    <artifactId>instacode-microservices-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Spring Boot Microservices Template</name>
     <packaging>pom</packaging>
@@ -17,10 +17,10 @@
     </parent>
 
     <modules>
-        <module>spring-microservices-config-server</module>
-        <module>spring-microservices-discovery-server</module>
-        <module>spring-microservices-gateway-server</module>
-        <module>spring-microservices-zipkin-tracing-server</module>
+        <module>instacode-microservices-config-server</module>
+        <module>instacode-microservices-discovery-server</module>
+        <module>instacode-microservices-gateway-server</module>
+        <module>instacode-microservices-tracing-server</module>
     </modules>
 
     <properties>
