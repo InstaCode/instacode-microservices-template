@@ -1,0 +1,12 @@
+[submodule "instacode-microservices-config-server"]
+	path = instacode-microservices-config-server
+	url = https://jason-edstrom@github.com/InstaCode/instacode-microservices-config-server.git
+[submodule "instacode-microservices-gateway-server"]
+	path = instacode-microservices-gateway-server
+	url = https://jason-edstrom@github.com/InstaCode/instacode-microservices-gateway-server.git
+[submodule "instacode-microservices-discovery-server"]
+	path = instacode-microservices-discovery-server
+	url = https://jason-edstrom@github.com/InstaCode/instacode-microservices-discovery-server.git
+[submodule "instacode-microservices-tracing-server"]
+	path = instacode-microservices-tracing-server
+	url = https://jason-edstrom@github.com/InstaCode/instacode-microservices-tracing-server.git
