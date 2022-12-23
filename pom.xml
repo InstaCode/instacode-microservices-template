@@ -27,7 +27,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <rest-assured.version>4.4.0</rest-assured.version>
-        <spring-boot.version>2.5.2</spring-boot.version>
+        <spring-boot.version>3.0.1</spring-boot.version>
     </properties>
 
     <dependencyManagement>
